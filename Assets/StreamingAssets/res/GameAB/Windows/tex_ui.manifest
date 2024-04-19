@@ -1,0 +1,83 @@
+ManifestFileVersion: 0
+CRC: 2634751486
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e3cdbe41ea63e189e3cf46fad0ba548e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e3cdbe41ea63e189e3cf46fad0ba548e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Game/BuildAB/tex/ui/bar.png
+- Assets/Game/BuildAB/tex/ui/bundle2.png
+- Assets/Game/BuildAB/tex/ui/win_tab.png
+- Assets/Game/BuildAB/tex/ui/privacy_tab.png
+- Assets/Game/BuildAB/tex/ui/icon_map.png
+- Assets/Game/BuildAB/tex/ui/ad1.png
+- Assets/Game/BuildAB/tex/ui/tab3.png
+- Assets/Game/BuildAB/tex/ui/btn_green.png
+- Assets/Game/BuildAB/tex/ui/green.png
+- Assets/Game/BuildAB/tex/ui/btn_blue.png
+- Assets/Game/BuildAB/tex/ui/tab2_x.png
+- Assets/Game/BuildAB/tex/ui/music.png
+- Assets/Game/BuildAB/tex/ui/music_icon.png
+- Assets/Game/BuildAB/tex/ui/classic_tab.png
+- Assets/Game/BuildAB/tex/ui/contact_us.png
+- Assets/Game/BuildAB/tex/ui/replay.png
+- Assets/Game/BuildAB/tex/ui/setting_icon.png
+- Assets/Game/BuildAB/tex/ui/hint_back.png
+- Assets/Game/BuildAB/tex/ui/slot_tab.png
+- Assets/Game/BuildAB/tex/ui/hint_reset.png
+- Assets/Game/BuildAB/tex/ui/music_off.png
+- Assets/Game/BuildAB/tex/ui/no_ads.png
+- Assets/Game/BuildAB/tex/ui/vibration.png
+- Assets/Game/BuildAB/tex/ui/hint_help.png
+- Assets/Game/BuildAB/tex/ui/map.png
+- Assets/Game/BuildAB/tex/ui/tab1.png
+- Assets/Game/BuildAB/tex/ui/sfx.png
+- Assets/Game/BuildAB/tex/ui/tab1_x.png
+- Assets/Game/BuildAB/tex/ui/tab_help.png
+- Assets/Game/BuildAB/tex/ui/tab_gameplay.png
+- Assets/Game/BuildAB/tex/ui/setting_popup1.png
+- Assets/Game/BuildAB/tex/ui/bundle1.png
+- Assets/Game/BuildAB/tex/ui/hand.png
+- Assets/Game/BuildAB/tex/ui/cay2.png
+- Assets/Game/BuildAB/tex/ui/level_lock.png
+- Assets/Game/BuildAB/tex/ui/vfx.png
+- Assets/Game/BuildAB/tex/ui/next.png
+- Assets/Game/BuildAB/tex/ui/all_in_tab.png
+- Assets/Game/BuildAB/tex/ui/win.png
+- Assets/Game/BuildAB/tex/ui/setting.png
+- Assets/Game/BuildAB/tex/ui/start.png
+- Assets/Game/BuildAB/tex/ui/level_old.png
+- Assets/Game/BuildAB/tex/ui/cay.png
+- Assets/Game/BuildAB/tex/ui/block.png
+- Assets/Game/BuildAB/tex/ui/sale.png
+- Assets/Game/BuildAB/tex/ui/level_new.png
+- Assets/Game/BuildAB/tex/ui/icon_next.png
+- Assets/Game/BuildAB/tex/ui/win_map.png
+- Assets/Game/BuildAB/tex/ui/btn_shop.png
+- Assets/Game/BuildAB/tex/ui/tab2.png
+- Assets/Game/BuildAB/tex/ui/sfx_off.png
+- Assets/Game/BuildAB/tex/ui/X.png
+- Assets/Game/BuildAB/tex/ui/tab.png
+- Assets/Game/BuildAB/tex/ui/vibration_off.png
+- Assets/Game/BuildAB/tex/ui/tab_gameplay_setting.png
+- Assets/Game/BuildAB/tex/ui/x2.png
+- Assets/Game/BuildAB/tex/ui/level.png
+- Assets/Game/BuildAB/tex/ui/setting_popup.png
+- Assets/Game/BuildAB/tex/ui/ad2.png
+- Assets/Game/BuildAB/tex/ui/tab3_x.png
+- Assets/Game/BuildAB/tex/ui/shop.png
+- Assets/Game/BuildAB/tex/ui/Group 22.png
+Dependencies: []

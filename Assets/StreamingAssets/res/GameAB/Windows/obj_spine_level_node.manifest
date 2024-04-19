@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 2220270951
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 297c447d83d1fef88764a58977094aa1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b2858aadadecd9d59acb34cafee66a17
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 297c447d83d1fef88764a58977094aa1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f2891d68835fea459be46b4726d7414, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Game/BuildAB/obj/spine_level_node.prefab
+Dependencies: []

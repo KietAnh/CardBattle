@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3714655804
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1feed2025c2ba0e92f26e4715a4d09be
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7682bfb0707da961aa287a1a007658de
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1feed2025c2ba0e92f26e4715a4d09be
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6fd2e8874f60266498a388d7229a1bac, type: 3}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Game/BuildAB/vfx/fireworkEffect.prefab
+Dependencies: []

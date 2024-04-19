@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2325893744
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c29fd5631cc4f97190cca7640986ac3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3c29fd5631cc4f97190cca7640986ac3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Game/GameAssets/Texture2D/NotoSansTC-Regular SDF Atlas.png
+Dependencies: []

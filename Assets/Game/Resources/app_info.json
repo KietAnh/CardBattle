@@ -1,0 +1,172 @@
+{
+    "appVersion": 18,
+    "isUpdateStore": false,
+    "assetBundleUrl": "/res/GameAB/{0}",
+    "abFiles": [
+        {
+            "resName": "Android",
+            "size": 3
+        },
+        {
+            "resName": "anim_cur_level",
+            "size": 4
+        },
+        {
+            "resName": "aud_bgm",
+            "size": 2254
+        },
+        {
+            "resName": "aud_s_clip",
+            "size": 411
+        },
+        {
+            "resName": "bigtex_bg_2",
+            "size": 619
+        },
+        {
+            "resName": "bigtex_bg_shop",
+            "size": 662
+        },
+        {
+            "resName": "bigtex_map_1",
+            "size": 116
+        },
+        {
+            "resName": "conf_t_global_constantbean",
+            "size": 1
+        },
+        {
+            "resName": "conf_t_guidebean",
+            "size": 1
+        },
+        {
+            "resName": "conf_t_itembean",
+            "size": 1
+        },
+        {
+            "resName": "conf_t_levelbean",
+            "size": 5
+        },
+        {
+            "resName": "conf_t_level_guidebean",
+            "size": 2
+        },
+        {
+            "resName": "conf_t_shop_packbean",
+            "size": 1
+        },
+        {
+            "resName": "conf_t_textbean",
+            "size": 1
+        },
+        {
+            "resName": "font_luckiest-guy",
+            "size": 31
+        },
+        {
+            "resName": "font_luckiest_guy",
+            "size": 31
+        },
+        {
+            "resName": "obj_bg",
+            "size": 2300
+        },
+        {
+            "resName": "obj_bg_1",
+            "size": 2300
+        },
+        {
+            "resName": "obj_bg_2",
+            "size": 4
+        },
+        {
+            "resName": "obj_board",
+            "size": 92
+        },
+        {
+            "resName": "obj_cheat",
+            "size": 4
+        },
+        {
+            "resName": "obj_fruit",
+            "size": 8
+        },
+        {
+            "resName": "obj_item",
+            "size": 5
+        },
+        {
+            "resName": "obj_spine_level_node",
+            "size": 77
+        },
+        {
+            "resName": "tex_fruit",
+            "size": 63
+        },
+        {
+            "resName": "tex_ui",
+            "size": 704
+        },
+        {
+            "resName": "vfx_fireworkeffect",
+            "size": 30
+        },
+        {
+            "resName": "vfx_fruiteffect",
+            "size": 47
+        },
+        {
+            "resName": "vfx_match3effect",
+            "size": 48
+        },
+        {
+            "resName": "wd_cheatwindow",
+            "size": 10
+        },
+        {
+            "resName": "wd_guidewindow",
+            "size": 13
+        },
+        {
+            "resName": "wd_hubwindow",
+            "size": 7
+        },
+        {
+            "resName": "wd_loadingwindow",
+            "size": 563
+        },
+        {
+            "resName": "wd_losegamewindow",
+            "size": 492
+        },
+        {
+            "resName": "wd_mainwindow",
+            "size": 8
+        },
+        {
+            "resName": "wd_rewardwindow",
+            "size": 7
+        },
+        {
+            "resName": "wd_settinginmainwindow",
+            "size": 8
+        },
+        {
+            "resName": "wd_settingwindow",
+            "size": 12
+        },
+        {
+            "resName": "wd_shopwindow",
+            "size": 18
+        },
+        {
+            "resName": "wd_wingamewindow",
+            "size": 7
+        }
+    ],
+    "managers": [
+        "SpawnManager",
+        "GCManager",
+        "IAPManager"
+    ]
+}

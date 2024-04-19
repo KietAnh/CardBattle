@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 4253276206
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b4f748cd9abc405793fffa50f3139bde
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b4f748cd9abc405793fffa50f3139bde
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Game/BuildAB/tex/fruit/fruit_1.png
+- Assets/Game/BuildAB/tex/fruit/fruit_19.png
+- Assets/Game/BuildAB/tex/fruit/fruit_18.png
+- Assets/Game/BuildAB/tex/fruit/fruit_20.png
+- Assets/Game/BuildAB/tex/fruit/fruit_14.png
+- Assets/Game/BuildAB/tex/fruit/fruit_17.png
+- Assets/Game/BuildAB/tex/fruit/fruit_16.png
+- Assets/Game/BuildAB/tex/fruit/fruit_5.png
+- Assets/Game/BuildAB/tex/fruit/fruit_4.png
+- Assets/Game/BuildAB/tex/fruit/fruit_13.png
+- Assets/Game/BuildAB/tex/fruit/fruit_3.png
+- Assets/Game/BuildAB/tex/fruit/fruit_6.png
+- Assets/Game/BuildAB/tex/fruit/fruit_8.png
+- Assets/Game/BuildAB/tex/fruit/fruit_21.png
+- Assets/Game/BuildAB/tex/fruit/fruit_11.png
+- Assets/Game/BuildAB/tex/fruit/fruit_2.png
+- Assets/Game/BuildAB/tex/fruit/fruit_22.png
+- Assets/Game/BuildAB/tex/fruit/fruit_7.png
+- Assets/Game/BuildAB/tex/fruit/fruit_15.png
+- Assets/Game/BuildAB/tex/fruit/fruit_12.png
+- Assets/Game/BuildAB/tex/fruit/fruit_9.png
+- Assets/Game/BuildAB/tex/fruit/fruit_10.png
+Dependencies: []

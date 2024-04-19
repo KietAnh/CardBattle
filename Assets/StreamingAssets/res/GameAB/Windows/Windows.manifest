@@ -1,0 +1,117 @@
+ManifestFileVersion: 0
+CRC: 3834814363
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: tex_ui
+      Dependencies: {}
+    Info_1:
+      Name: obj_bg_1
+      Dependencies: {}
+    Info_2:
+      Name: tex_fruit
+      Dependencies: {}
+    Info_3:
+      Name: obj_fruit
+      Dependencies:
+        Dependency_0: tex_ui
+        Dependency_1: tex_fruit
+    Info_4:
+      Name: wd_settingwindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_5:
+      Name: wd_cheatwindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_6:
+      Name: vfx_match3effect
+      Dependencies: {}
+    Info_7:
+      Name: obj_item
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_8:
+      Name: vfx_fruiteffect
+      Dependencies: {}
+    Info_9:
+      Name: wd_losegamewindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_10:
+      Name: wd_wingamewindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_11:
+      Name: wd_mainwindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_12:
+      Name: wd_rewardwindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_13:
+      Name: obj_spine_level_node
+      Dependencies: {}
+    Info_14:
+      Name: obj_cheat
+      Dependencies: {}
+    Info_15:
+      Name: wd_settinginmainwindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_16:
+      Name: wd_loadingwindow
+      Dependencies: {}
+    Info_17:
+      Name: vfx_fireworkeffect
+      Dependencies: {}
+    Info_18:
+      Name: obj_board
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_19:
+      Name: obj_bg_2
+      Dependencies: {}
+    Info_20:
+      Name: wd_guidewindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_21:
+      Name: wd_hubwindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_22:
+      Name: wd_shopwindow
+      Dependencies:
+        Dependency_0: tex_ui
+    Info_23:
+      Name: 9e07a003a01e5fc56012d74170638f1e.bundle
+      Dependencies: {}
+    Info_24:
+      Name: 27117c080d743974d9650e4470c1e4e4.bundle
+      Dependencies: {}
+    Info_25:
+      Name: 0bcbf2bc23ce3bb00d588adedd2d4c36.bundle
+      Dependencies: {}
+    Info_26:
+      Name: 3329b390fd4859d024f8c883f5bb9f5a.bundle
+      Dependencies: {}
+    Info_27:
+      Name: 10ea766e1d4209f4521fb84d14a02745.bundle
+      Dependencies: {}
+    Info_28:
+      Name: 9bb0c3e2143149667f5fb90bcba30609.bundle
+      Dependencies: {}
+    Info_29:
+      Name: b2eb029fa1864ce8018d4e914c397ba8.bundle
+      Dependencies: {}
+    Info_30:
+      Name: 3325b50a9c5233dc020cb73521d4e813.bundle
+      Dependencies: {}
+    Info_31:
+      Name: ed0419e062440c5237acd22648c3c060.bundle
+      Dependencies: {}
+    Info_32:
+      Name: wd_homewindow
+      Dependencies: {}
