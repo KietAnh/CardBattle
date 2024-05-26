@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2896317576
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb13617087e5bbc5adbf061053b1843a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22fad718fc7e194494b0d3a65a9cf6fd
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fb13617087e5bbc5adbf061053b1843a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 01bdab5b818e73d48bf4566586513a0e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: GlobalConstantRecord
+Assets:
+- Assets/Game/BuildAB/conf/GlobalConstantConfig.asset
+Dependencies: []

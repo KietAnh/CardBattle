@@ -1,4 +1,4 @@
-using Data.Beans;
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,5 +33,6 @@ public class HomeWindow : UIBase
     public void OnClickJoin()
     {
         DevLog.Log("Join");
+        GameManager.Singleton.ChangeState(GameState.SHOP);
     }
 }

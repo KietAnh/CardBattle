@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3600392933
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d6e03a818c85908487e2903e8263ceb5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9c366239bb46bbe65a6fdd8d331ac4c3
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d6e03a818c85908487e2903e8263ceb5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: cdcc9b9d8ec202a45988261e8f2745a6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: PetRecord
+Assets:
+- Assets/Game/BuildAB/conf/PetConfig.asset
+Dependencies: []

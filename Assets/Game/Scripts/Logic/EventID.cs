@@ -36,4 +36,7 @@ public enum EventID
     ReqTurnVibra,
     ReqBuyPack,
     ReqRevive,
+
+    OnBuyCard,
+    OnRoll,
 }

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fee7d441fe5794299dcdd26afbcf37, type: 3}
+  m_Name: ProbConfig
+  m_EditorClassIdentifier: 
+  recordList:
+  - name: 1
+    id: 1
+    probs:
+    - 1
+  - name: 2
+    id: 2
+    probs:
+    - 1
+  - name: 3
+    id: 3
+    probs:
+    - 0.5
+    - 0.5
+  - name: 4
+    id: 4
+    probs:
+    - 0.5
+    - 0.5
+  - name: 5
+    id: 5
+    probs: []
+  - name: 6
+    id: 6
+    probs: []
+  - name: 7
+    id: 7
+    probs: []
+  - name: 8
+    id: 8
+    probs: []
+  - name: 9
+    id: 9
+    probs: []
+  - name: 10
+    id: 10
+    probs: []
+  - name: 11
+    id: 11
+    probs: []

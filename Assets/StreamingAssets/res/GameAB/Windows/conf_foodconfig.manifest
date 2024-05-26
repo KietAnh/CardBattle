@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3149945272
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8650fabe0c472b6dd9f0031bcd1008ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6af1b92972f6a172221b97bfbbf80302
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8650fabe0c472b6dd9f0031bcd1008ac
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 904462d5f1cdb5040ac0ec382886453f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: FoodRecord
+Assets:
+- Assets/Game/BuildAB/conf/FoodConfig.asset
+Dependencies: []

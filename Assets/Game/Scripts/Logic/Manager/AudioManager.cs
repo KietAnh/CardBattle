@@ -40,28 +40,28 @@ public class AudioManager : SingletonTemplate<AudioManager>
     }
     public void SetGlobalVolume(GameEvent gameEvent)
     {
-        bool isMusicOn = UserDataService.GetData<bool>(PREF_KEY.MusicOn, true);
-        globalMusicVolume = isMusicOn ? 1f : 0f;
-        bool isSoundOn = UserDataService.GetData<bool>(PREF_KEY.SoundOn, true);
-        globalSoundVolume = isSoundOn ? 1f : 0f;
+        //bool isMusicOn = UserDataService.GetData<bool>(PREF_KEY.MusicOn, true);
+        //globalMusicVolume = isMusicOn ? 1f : 0f;
+        //bool isSoundOn = UserDataService.GetData<bool>(PREF_KEY.SoundOn, true);
+        //globalSoundVolume = isSoundOn ? 1f : 0f;
 
-        foreach (var sound in _soundPlayingMap)
-        {
-            AudioData soundData = sound.Value;
-            if (soundData.sndType == SoundType.Music || soundData.sndType == SoundType.Music3D)
-            {
-                soundData.source.volume = soundData.baseVolume * globalMusicVolume;
-            }
-            else
-            {
-                soundData.source.volume = soundData.baseVolume * globalSoundVolume;
-            }
-        }
+        //foreach (var sound in _soundPlayingMap)
+        //{
+        //    AudioData soundData = sound.Value;
+        //    if (soundData.sndType == SoundType.Music || soundData.sndType == SoundType.Music3D)
+        //    {
+        //        soundData.source.volume = soundData.baseVolume * globalMusicVolume;
+        //    }
+        //    else
+        //    {
+        //        soundData.source.volume = soundData.baseVolume * globalSoundVolume;
+        //    }
+        //}
     }
     public void SetGlobalVibra(GameEvent gameEvent)
     {
-        bool isVibraOn = UserDataService.GetData<bool>(PREF_KEY.VibraOn, true);
-        globalVibra = isVibraOn? 1f : 0f;
+        //bool isVibraOn = UserDataService.GetData<bool>(PREF_KEY.VibraOn, true);
+        //globalVibra = isVibraOn? 1f : 0f;
     }
 
     public long PlayMusic(string name, float volume = 1f)

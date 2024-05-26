@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 using System;
-using Data.Beans;
+using Object = UnityEngine.Object;
 
 public class GameManager : SingletonBehaviour<GameManager>
 {
@@ -12,6 +12,8 @@ public class GameManager : SingletonBehaviour<GameManager>
     private StateMachine _stateMachine;
 
     private AppInfo _appInfo;
+
+    private Dictionary<Type, BaseLocalManager> _localManagers = new Dictionary<Type, BaseLocalManager>();
 
     public void Init(AppInfo appInfo)
     {
@@ -92,19 +94,45 @@ public class GameManager : SingletonBehaviour<GameManager>
         EffectManager.Singleton.Init();
         //AdsManager.Singleton.Init();
         //CrashlyticManager.Singleton.Init();
-        NotificationManager.Singleton.Init(); 
-        //ServerManager.Singleton.Init();
+        NotificationManager.Singleton.Init();
+        ServiceManager.Singleton.Init();
         //GuideManager.Singleton.Init();
+        ConfigManager.Singleton.Init();
+    }
+
+    public void AddLocalManager(BaseLocalManager mgr)
+    {
+        if (!_localManagers.ContainsKey(mgr.GetType()))
+        {
+            _localManagers.Add(mgr.GetType(), mgr);
+        }
+    }
+
+    public T GetLocalManager<T>() where T : BaseLocalManager
+    {
+        BaseLocalManager res = null;
+        if (_localManagers.TryGetValue(typeof(T), out res))
+            return _localManagers[typeof(T)] as T;
+        return null;
+
+    }
+
+    public void RemoveLocalManager(Type type)
+    {
+        if (_localManagers.ContainsKey(type))
+        {
+            _localManagers.Remove(type);
+        }
     }
     
     private void InitCheat()
     {
-        bool isCheatOn = ConfigBean.GetBean<t_global_constantBean, string>("IsCheat").t_int_param == 1;
-        if (isCheatOn)
-        {
-            var cheatObj = ObjectManager.Singleton.GetObject("cheat");
-            cheatObj.AddComponent<CheatBehaviour>();
-        }
+        //bool isCheatOn = ConfigBean.GetBean<t_global_constantBean, string>("IsCheat").t_int_param == 1;
+        //if (isCheatOn)
+        //{
+        //    var cheatObj = ObjectManager.Singleton.GetObject("cheat");
+        //    cheatObj.AddComponent<CheatBehaviour>();
+        //}
     }
     public void InitGameState()
     {

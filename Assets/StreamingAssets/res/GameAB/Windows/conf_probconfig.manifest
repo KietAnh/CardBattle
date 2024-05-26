@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3706678454
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c38e6d5985b9542ea2594778700d9651
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 772a0499b3b5e63d166dad180306f148
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c38e6d5985b9542ea2594778700d9651
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: b0fee7d441fe5794299dcdd26afbcf37, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: ProbRecord
+Assets:
+- Assets/Game/BuildAB/conf/ProbConfig.asset
+Dependencies: []

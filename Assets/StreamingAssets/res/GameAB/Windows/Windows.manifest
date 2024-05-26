@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3834814363
+CRC: 3270847019
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -83,8 +83,7 @@ AssetBundleManifest:
         Dependency_0: tex_ui
     Info_22:
       Name: wd_shopwindow
-      Dependencies:
-        Dependency_0: tex_ui
+      Dependencies: {}
     Info_23:
       Name: 9e07a003a01e5fc56012d74170638f1e.bundle
       Dependencies: {}
@@ -114,4 +113,20 @@ AssetBundleManifest:
       Dependencies: {}
     Info_32:
       Name: wd_homewindow
+      Dependencies: {}
+    Info_33:
+      Name: conf_globalconstantconfig
+      Dependencies: {}
+    Info_34:
+      Name: conf_petconfig
+      Dependencies: {}
+    Info_35:
+      Name: conf_probconfig
+      Dependencies: {}
+    Info_36:
+      Name: obj_shop
+      Dependencies:
+        Dependency_0: 9e07a003a01e5fc56012d74170638f1e.bundle
+    Info_37:
+      Name: conf_foodconfig
       Dependencies: {}

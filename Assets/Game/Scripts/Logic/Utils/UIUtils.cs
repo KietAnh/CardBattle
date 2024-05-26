@@ -1,33 +1,32 @@
 using UnityEngine;
-using Data.Beans;
 using UnityEngine.UI;
 
 public static class UIUtils
 {
-    public static string GetStrByLanguageID(int id)
-    {
-        string lang = ConfigBean.GetBean<t_textBean, int>(id).t_content;
-        if (lang == null)
-        {
-            return "" + id;
-        }
-        return lang;
-    }
-    public static string GetStrByConstantID(string id)
-    {
-        int textId = ConfigBean.GetBean<t_global_constantBean, string>(id).t_int_param;
-        return GetStrByLanguageID(textId);
-    }
-    public static string GetStrFormat(int id, object param)
-    {
-        string str = GetStrByLanguageID(id);
-        return string.Format(str, param);
-    }
-    public static string GetStrFormat(int id, object param1, object param2)
-    {
-        string str = GetStrByLanguageID(id);
-        return string.Format(str, param1, param2);
-    }
+    //public static string GetStrByLanguageID(int id)
+    //{
+    //    string lang = ConfigBean.GetBean<t_textBean, int>(id).t_content;
+    //    if (lang == null)
+    //    {
+    //        return "" + id;
+    //    }
+    //    return lang;
+    //}
+    //public static string GetStrByConstantID(string id)
+    //{
+    //    int textId = ConfigBean.GetBean<t_global_constantBean, string>(id).t_int_param;
+    //    return GetStrByLanguageID(textId);
+    //}
+    //public static string GetStrFormat(int id, object param)
+    //{
+    //    string str = GetStrByLanguageID(id);
+    //    return string.Format(str, param);
+    //}
+    //public static string GetStrFormat(int id, object param1, object param2)
+    //{
+    //    string str = GetStrByLanguageID(id);
+    //    return string.Format(str, param1, param2);
+    //}
 
     public static void SetTextColor(Text text, string hexa)
     {
